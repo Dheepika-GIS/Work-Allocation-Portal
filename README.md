@@ -1,24 +1,55 @@
 # Work Allocation Portal QGIS Plugin
 
-This plugin provides a custom interface for managing GIS-based work allocation with:
-- Role-based field-level editing
-- Integrated PostgreSQL backend
-- Inline spreadsheet-like editing
-- Undo/Redo and group editing
-- Custom filters, zoom to features, and more
+The **Work Allocation Portal** is a custom QGIS plugin designed to streamline team-based GIS workflows through a dynamic table-based editor. It mimics Google Sheets behavior while providing advanced control over attribute editing, data validation, and role-based permissions using a PostgreSQL backend.
 
-## Features
-- View and edit assigned work units
-- Restrict field access based on user role
-- Paste from clipboard like Google Sheets
-- Realtime updates to PostgreSQL
+## 🔧 Features
 
-## Requirements
+- ✅ **Inline Editing** without QGIS edit mode
+- ✅ **Role-Based Field-Level Permissions** (Admin/Staff/Leader roles)
+- ✅ **Google Sheet-style Table Widget** using QtPySheet
+- ✅ **Undo/Redo and Group Paste Tracking**
+- ✅ **Column Organizing, Filtering, Zoom to Feature**
+- ✅ **Auto-population of fields based on rules (e.g., Emp ID → Name)**
+- ✅ **Login with Google Sheets-based credentials**
+- ✅ **Works with PostgreSQL and Materialized Views**
+
+
+## 🛠️ Installation
+
+1. Clone or download this repo.
+2. Copy the `work_allocation_portal` folder into your QGIS plugins directory:
+   - On Windows:  
+     `C:\Users\<YourUsername>\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins`
+3. Open QGIS → **Plugins** → **Manage and Install Plugins**
+4. Enable **Work Allocation Portal**
+
+## 🧩 Dependencies
+
 - QGIS 3.22+
-- PostgreSQL with required schema and tables
-- Python libraries: `PyQt5`, `qt_pysheet`, `psycopg2`, `pandas`
+- PostgreSQL (tested with PostGIS-enabled setup)
+- Python packages:
+  - `PyQt5`
+  - `pandas`
+  - `psycopg2`
+  - `qt_pysheet` (custom sheet-like widget)
+  - `pyperclip` *(optional, for clipboard)*
 
-## Installation
-1. Clone or download the repo.
-2. Copy the plugin folder to your QGIS plugin directory.
-3. Enable it from QGIS Plugin Manager.
+> You may need to install dependencies via `pip install` if you test outside QGIS.
+
+## 🔐 Login System
+
+- Credentials fetched from Google Sheets
+- Role-based UI:  
+  - **Admins** can edit selected columns  
+  - **Staff** has read-only access via materialized view
+- Dropdown to select active project
+
+## 📋 Screenshots
+
+_(Add screenshots of login screen, table viewer, zoom button, etc.)_
+
+## 💡 Future Improvements
+
+- QTableView and QAbstractProxyModel for large data optimization
+- Color-coded status fields
+- Form-based editing fallback
