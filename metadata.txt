@@ -7,7 +7,7 @@ name=WorkAllocationPortal
 qgisMinimumVersion=3.22
 description=A plugin to log in and show user-specific data from a PostgreSQL database
 version=1.9.44
-author=EDR CONTINUOUS INFORMATION PVT. LTD.
+author=Dheepika P, Santhana Krishnan J
 email=edr@edrinfo.com
 
 about=This plugin provides a login-based interface to a PostgreSQL database for managing work allocations. Administrators can log in to assign and manage tasks, while regular users can view their allocated work. The plugin ensures role-based access and integrates directly into QGIS, allowing spatial data interactions linked to user accounts.
