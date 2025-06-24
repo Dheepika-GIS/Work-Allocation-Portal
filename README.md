@@ -76,3 +76,8 @@ The **Work Allocation Portal** is a custom QGIS plugin designed to streamline te
 - QTableView and QAbstractProxyModel for large data optimization
 - Color-coded status fields
 - Upload CSV to upload inputs
+
+## Author
+
+**Dheepika .P**
+🖂 dheepikanz01@gmail.com
