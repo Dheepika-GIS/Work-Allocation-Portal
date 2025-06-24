@@ -52,4 +52,4 @@ _(Add screenshots of login screen, table viewer, zoom button, etc.)_
 
 - QTableView and QAbstractProxyModel for large data optimization
 - Color-coded status fields
-- Form-based editing fallback
+- Upload CSV to upload inputs
