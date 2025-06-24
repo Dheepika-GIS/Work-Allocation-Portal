@@ -81,4 +81,6 @@ The **Work Allocation Portal** is a custom QGIS plugin designed to streamline te
 
 **Dheepika .P**
 🖂 dheepikanz01@gmail.com
-\n**Santhana Krishnan J**
+### Additional Development Support
+
+**Santhana Krishnan J**
