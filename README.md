@@ -47,7 +47,28 @@ The **Work Allocation Portal** is a custom QGIS plugin designed to streamline te
 ## 📋 Screenshots
 
 - Login Panel
+  
 ![Work-Allocation-Portal screenshot](screenshot/login_panel.png)
+
+- Select state
+
+![Work-Allocation-Portal screenshot](screenshot/select_state.png)
+
+- Show selected feature(s)
+
+![Work-Allocation-Portal screenshot](screenshot/show_selected_features.png)
+
+- Work Allocation Portal Viewer/Editor
+
+![Work-Allocation-Portal screenshot](work_allocation_portal_viewer(editor).png)
+
+- Zoom to feature
+
+![Work-Allocation-Portal screenshot](zoom_to_feature.png)
+
+- Organize columns
+
+![Work-Allocation-Portal screenshot](organize_columns.png)
 
 
 ## 💡 Future Improvements
