@@ -6,7 +6,7 @@ The **Work Allocation Portal** is a custom QGIS plugin designed to streamline te
 
 - ✅ **Inline Editing** without QGIS edit mode
 - ✅ **Role-Based Field-Level Permissions** (Admin/Staff/Leader roles)
-- ✅ **Google Sheet-style Table Widget** using QtPySheet
+- ✅ **Google Sheet-style Table Widget** 
 - ✅ **Undo/Redo and Group Paste Tracking**
 - ✅ **Column Organizing, Filtering, Zoom to Feature**
 - ✅ **Auto-population of fields based on rules (e.g., Emp ID → Name)**
